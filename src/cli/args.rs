@@ -72,7 +72,7 @@ impl Args {
 
         println!("\n{}", "Examples:".bright_yellow().bold());
         println!("  {} Install dotfiles from GitHub:", "→".bright_blue());
-        println!("    {}", "dotty -r h3li0p4us3/dotfiles".bright_white());
+        println!("    {}", "dotty -r neox1de/dotfiles".bright_white());
         
         println!("  {} Clean up old backups:", "→".bright_blue());
         println!("    {}", "dotty -c".bright_white());
