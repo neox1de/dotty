@@ -1,0 +1,20 @@
+# Configuration file for Dotty dotfile manager
+
+# Specify which packages' configuration files or folders to install.
+packages:
+  - name: "fastfetch"
+    is_aur: false # Set to true if the package is available in the AUR or in official repositories
+    files:
+      - source: "configs/fastfetch/"       # source path is relative to the repository root
+        destination: "~/.config/fastfetch/" # Install to destination directory
+
+  - name: "glow"
+    is_aur: false 
+    files:
+      - source: "configs/glow/"
+        destination: "~/.config/glow/"
+
+
+# Additional settings
+settings:
+  skip_existing: false  # if true, skip files that already exist in the destination
