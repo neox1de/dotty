@@ -20,7 +20,7 @@ Dotty is a modern dotfile manager written in Rust that helps you manage your con
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/h3li0p4us3-moharami/dotty.git
+   git clone https://github.com/neox1de/dotty.git
    cd dotty
    ```
 
