@@ -20,6 +20,19 @@ you can use cargo to install the tool:
 ```bash
 cargo install --git https://github.com/neox1de/dotty
 ```
+### From Source
+1. clone the repository:
+```bash
+git clone https://github.com/neox1de/dotty.git
+```
+2. build the project:
+```bash
+cargo build --release
+```
+3. run the program:
+```bash
+./target/release/dotty
+```
 
 ## Usage
 
@@ -58,7 +71,7 @@ settings:
   skip_existing: false
 ```
 
-For a more detailed example configuration, checkout our [dotty.yaml](example/dotty.yaml) file.
+For a more detailed example configuration, checkout the [dotty.yaml](example/dotty.yaml) file.
 
 ## Contributing
 
